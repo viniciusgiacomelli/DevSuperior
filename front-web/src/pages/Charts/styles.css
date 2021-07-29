@@ -70,3 +70,45 @@
     background-color: var(--color-dimgray);
     border-radius: 10px;
   }
+
+  @media(max-width:770px){
+
+    .page-container{
+      align-items: center;
+      justify-content: center;
+    }
+
+    .top-related-title h1{
+      justify-content: center;
+    }
+
+    .top-related{
+      display:none;
+    }
+
+    .platform-chart{
+      width: 100%;
+    }
+
+    .chart-container{
+      justify-content: center;
+    }
+
+    .gender-chart{
+      width:100%;
+    }
+
+  }
+
+  @media(max-width:420px){
+    .platform-chart{
+      width: 85%;
+      justify-content: center;
+    }
+
+    .gender-chart{
+      width:85%;
+    }
+
+    
+  }

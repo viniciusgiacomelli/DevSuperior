@@ -103,3 +103,9 @@
   .filters-container .action-filters:hover {
     background-color: #04c7ef;
   }
+
+  @media(max-width:750px){
+    .filters-container.records-actions{
+      justify-content: center;
+    }
+  }

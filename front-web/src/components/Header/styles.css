@@ -3,7 +3,8 @@
     padding: 20px 10px 20px 40px;
     display: flex;
     background-color: var(--color-darkslategray);
-  }
+
+}
 
   .header-logo{
     flex:1;
@@ -40,4 +41,20 @@
     .main-header {
       justify-content: center;
     }
+
+
+
+
+  }
+
+  @media(max-width: 466px){
+    .header-logo{
+      overflow:hidden;
+      color: transparent;
+    }
+    .header-logo a {
+      overflow:hidden;
+      color: transparent;
+    }
+
   }
