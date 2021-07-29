@@ -1,8 +1,24 @@
 .main-header {
     height: 20px;
-    padding: 20px 40px;
+    padding: 20px 10px 20px 40px;
     display: flex;
     background-color: var(--color-darkslategray);
+  }
+
+  .header-logo{
+    flex:1;
+    text-align: right;
+  }
+
+  .header-logo a{
+    text-align: right;
+    color:#FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif
+  }
+
+  .header-logo img{
+    height: 30px;
+    width: 35px;
   }
   
   .logo-text {
@@ -17,6 +33,7 @@
   
   .logo-text-2 {
     color: #FFF;
+    text-align: left;
   }
   
   @media (max-width: 850px) {

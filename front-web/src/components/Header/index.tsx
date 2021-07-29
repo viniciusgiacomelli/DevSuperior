@@ -1,5 +1,6 @@
 import React from 'react';
 import { ReactComponent as Logo} from '../../assets/logo.svg';
+import logoG from '../../assets/logoG.png';
 import { Link } from 'react-router-dom';
 import'./styles.css';
 
@@ -13,6 +14,12 @@ const Header = () => (
                 <span className="logo-text-2"> Survey</span>
             </div>
         </Link>
+        <div className="header-logo">
+            <a href="https://sites.google.com/view/viniciusgiacomelli">
+                Vinicius Giacomelli
+                < img src={logoG}/>
+            </a>
+        </div>
     </header>
 );
 export default Header;
